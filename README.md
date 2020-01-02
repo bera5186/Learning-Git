@@ -21,3 +21,9 @@
 19. Compare staged change with last commit : git diff --staged HEAD
 20. Limit diff to a specific file : git diff -- filename
 21. Compare between two commits : git diff commit_id_1 commit_id_2
+22. List all branches : git branch -a
+23. Create a new Branch : git branch my_new_branch_name
+24. Change branch : git checkout branch_name
+25. Change branch name : git branch -m oldName newName
+26. Delete Branch : git branch -d branchName
+27. Create and Change branch simultaneouly : git checkout -b branchName

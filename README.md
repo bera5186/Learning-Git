@@ -16,3 +16,8 @@
 14. Commit history some time ago : git log --since="1 hours ago" or git log --since="3 days ago"
 15. Commit history of a specific file : git log -- filename.txt
 16. Create alias : git config --global alias.alias_name "command after git goes here"
+17. Compare staged and unstaged changes : git diff
+18. Compare unstaged change with last commit : git diff HEAD
+19. Compare staged change with last commit : git diff --staged HEAD
+20. Limit diff to a specific file : git diff -- filename
+21. Compare between two commits : git diff commit_id_1 commit_id_2

@@ -27,3 +27,4 @@
 25. Change branch name : git branch -m oldName newName
 26. Delete Branch : git branch -d branchName
 27. Create and Change branch simultaneouly : git checkout -b branchName
+28. Merge a branch : git merge branch_name
